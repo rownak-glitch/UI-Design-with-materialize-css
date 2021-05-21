@@ -1,0 +1,204 @@
+body { overflow: auto; 
+background-color: #e5e8ef;}
+
+nav{
+  background-color: #133159;
+  padding-left: 10px;
+  
+  
+}
+h6{
+    font-size: 20px;
+}
+
+.search-box{
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    background-color: whitesmoke;
+    height: 40px;
+    border-radius: 8px;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 10px;
+}
+.sidebar{
+    background-color: #133159; 
+    color: white;
+    padding-top: 20px;
+    left: 0;
+    width: 210px;
+    height: 92%;
+    overflow: auto;
+    position: fixed;
+    
+}
+.sidebar a{
+
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+   
+    
+}
+.sidebar a:hover{
+    background: #3c7ef3;
+    border-radius: 10px;
+
+}
+.sidebar i{
+    padding-right: 8px;
+    
+}
+.sidebar label{
+    padding-left: 40px;
+    
+    
+    
+}
+
+#check:checked ~ .sidebar {
+    left: -140px;
+}
+#check:checked ~ .sidebar a span{
+    display: none;
+}
+#check:checked ~ .sidebar a{
+    
+    margin-left: 110px;
+    width: 80px;
+}
+#check:checked ~ .sidebar label{
+    margin-left:110px ;
+}
+#check:checked ~ .main-content{
+    margin-left: 100px;
+}
+
+.main-content{
+
+    margin-left: 230px;
+    margin-right: 25px;
+    min-height: 90vh;
+    margin-top: 25px;
+    
+}
+.deal-card{
+    background-color: #fff;
+    display: flex;
+    justify-content:center;
+    border: 1px solid rgb(211, 211, 211);
+    
+}
+.deal-card h6{
+    margin-bottom: 5px;
+    align-items: center;
+    font-weight: 500;
+    padding-right: 100px;
+    
+}
+.deal-btn{
+    margin-left: 30rem;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.deal-btn a{
+     margin-top: 5px;
+}
+.deal-btn a:hover{
+    background-color: #133159;
+    color: #fff;
+}
+.deal-button2 a{
+    margin-top: 3px;
+    margin-left: 25px;
+}
+.dropdown-button-card{
+    padding-left: 20px;
+    
+}
+.dropdown-button-card  a{
+   border: 1px solid gray;
+   padding-left: 100px;
+   padding-right: 100px;
+   margin-top: 3px;
+   margin-bottom: 3px;
+   border-radius: 5px;
+
+
+}
+#drop2{
+    margin-left: 15px;
+    padding-left:25px;
+    padding-right:25px;
+}
+#drop3{
+    margin-left: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.statement{
+    background-color: #fff;
+    color: black;
+    margin-bottom: 10px;
+    padding-left: 3px;
+    
+}
+.main-cards-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+#card1{
+height: 12vh;
+}
+#card2,#card3,#card4,#card5{
+    
+    width: 40vh;
+    height: 50vh;
+
+
+}
+#card2,#card4,#card5{
+    overflow:auto;
+}
+#card-details{
+    background-color: #fff;
+    width: 240px;
+    margin-right:5rem;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 3px;
+}
+#card-det{
+    background-color:#fff;
+    height: 43vh;
+    padding-top: 60px;
+    padding-left: 40px;
+    border: 1px solid rgb(211, 211, 211);
+    
+
+
+}
+#card3 a{
+    
+}
+#main-cards{
+    background-color:#e5e8ef;
+    overflow: scroll;
+}
